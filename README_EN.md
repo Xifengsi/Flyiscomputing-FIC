@@ -134,3 +134,7 @@ The documentation and reference code implementations of the FIC architecture are
 > *"The core Photonic In-Flight Logic Architecture (FIC v1.0), including the Spatial Dual-Track Differential Topology and Co-axial Wavelength Co-Flying mechanisms, was originally conceived and invented by Xifeng Si."*
 
 **Contributions:** We welcome pull requests and issue submissions from global engineers working in integrated photonics, electronic design automation (EDA), and AI compilers to advance this open blueprint for structural computing.
+---
+
+### Keywords (for GitHub SEO)
+photonic computing, optical computing, dual-rail, differential phase, silicon photonics, non-von-neumann, dynamic computing, high-dimensional computing, FIC, Fly is computing, photonic logic, in-flight computing
