@@ -1,140 +1,107 @@
-# Flyiscomputing: Photonic In-Flight Logic Architecture (FIC v1.0)
+FIC (Flyiscomputing) 1.0 Core Architecture Whitepaper
 
-> "Using light as ink, space as paper, writing poems mid-flight."  
-> A Complete Non-Von Neumann Computing Infrastructure Unleashing the Full Physical Dimensions of Light in Motion.
+———— Non-Von Neumann Computing System Based on Multi-dimensional Photonic Physical Cascading and Flow-level Evolution 
 
-**Official Global Release of FIC Architecture v1.0** **Inventor & Chief Proposer:** Xifeng Si (思希峰)  
-**Open Source Repository:** Licensed under the MIT License
+Inventor / Chief Architect: Si Xifeng Release Date: June 2026 Version Profile: FIC 1.0 Official Release (Theory, Physical Logic Architecture, and Shallow Acceleration Industrial Evolution Roadmap) 
 
----
+1. Introduction: Reconstruct the Physical Foundation of Computing 
 
-## 1. Project Manifesto & Vision
 
-In the era of massive Artificial Intelligence (AI) Large Language Models (LLMs) and exponential data scaling, contemporary silicon-based electronic computing systems have encountered insuperable physical barriers. Modern Von Neumann architectures (CPUs, GPUs, and TPUs) are strictly bound by fragmented compute-and-storage scaling boundaries, commonly referred to as the **Memory Wall**, **Thermal/Power Wall**, and **I/O Bandwidth Wall**. In electronic transistors, data processing demands the continuous charging and discharging of parasitic capacitances to transport electrons across deep memory hierarchies, generating severe Joule heating and unacceptable latency.
 
-**Flyiscomputing (FIC, 飞行即计算)** architecture represents a radical paradigm shift in computer engineering. Evolved from the theoretical foundations of TAIMI 3.0/3.1 and HWDC, FIC completely eliminates the global clock synchronization paradigm. By dynamically programming structural constraints into physical space, computational state evolution occurs spontaneously as phase-coherent optical wave packets glide through nanophotonic waveguiding structures, collapsing into global optimal solutions at the speed of light ($\delta S = 0$).
+1.1 The Final Dilemma of the Silicon Era Modern silicon-based electronic computers are deeply rooted in the Von Neumann architecture. In traditional systems, the power wall, the memory wall, and Clock Tyranny have become insurmountable physical mountains. To execute mixed operations, electrons must be frantically moved between transistors and memory via metallic wires. The system completely relies on GHz-grade high-frequency electrical clocks for step-by-step sequential interception and synchronization, which not only causes terrible Joule heating but also drives chip fabrication costs up exponentially.
 
-Recognizing that the physical realization of advanced non-Von Neumann photonic integrated circuits (PICs) requires substantial capital expenditure and foundry fabrication access, the inventor, **Xifeng Si**, has committed to open-sourcing the complete architectural specifications and core technical logic of FIC 1.0 to the global community under the MIT License. Academic institutions, independent researchers, and industry giants (e.g., NVIDIA, Intel, AMD, TSMC) are free to utilize, simulate, modify, and fabricate hardware based on this architecture. **However, any commercial derivation, academic citation, or physical tape-out must strictly adhere to the Intellectual Property Attribution specified herein.**
+1.2 The Dimension-Reduction Definition of FIC 1.0 FIC (Flyiscomputing) 1.0 is a non-Von Neumann, all-optical flow computing architecture that completely abolishes external electrical clocks and allows computing to return to natural physical evolution.
+On-the-fly Computing: By discarding GHz clock controls, computing no longer relies on clock signals to "push one step at a time." Instead, it utilizes the intrinsic momentum of photons (flying at the speed of light). The computational evolution completes the exact instant the data stream flows through hundred-nanometer-scale physical components.
+Multi-dimensional Physical Entity Bit: Binary 0 and 1 are redefined in FIC as multi-dimensional physical entities carrying wavelength, phase, amplitude, polarization, and spatial modes, completely breaking away from the scalar single-dimensional voltage of traditional electronics.
 
----
+2. Multi-dimensional Physical Mapping Mechanism of Bits 
 
-## 2. Theoretical Analysis of Electronic Bottlenecks
 
-FIC is systematically engineered to bypass the four fatal physical limitations of modern electronic processors:
-1. **The Flash & I/O Wall:** Charge-trapping mechanisms in 3D NAND flash suffer from severe quantum tunneling constraints, resulting in low write endurance and high latencies. Even with ultra-wide PCIe 6.0/7.0 interconnects, physical metal routing density has reached its Shannon capacity limit. FIC bypasses this by feeding continuous high-bandwidth photonic streams directly into the computing core.
-2. **The DRAM Cache Wall:** Up to 80% of total energy dissipation in modern GPU clusters is wasted purely on periodic DRAM refreshing and data shuffling across the Cache hierarchy. For LLM self-attention mechanisms with $O(N^2)$ computational complexity, processors face permanent "data starvation."
-3. **Clock Skew & Temporal Overheads:** Synchronous electronic logic relies on rigid clock trees to align data gates. The system power budget is severely penalized just to maintain synchronization across long global interconnects.
-4. **The Landauer Limit:** Traditional logic operations dissipate a minimum thermal energy of $\Delta Q \ge k_B T \ln 2$ whenever a register state is erased. FIC circumvents this thermodynamic bottleneck by utilizing passive, destructive wave interference.
 
----
+In the FIC 1.0 system, a single light pulse (a bit entity) naturally possesses multiple orthogonal physical degrees of freedom that do not interfere with each other, achieving ultra-high density parallel information loading and instruction-level dispatching at the hardware layer:
+Wavelength Dimension (Wavelength / Data Digit & Instruction Channel): Utilizing High-Density Wavelength Division Multiplexing (WDM) or soliton microcomb technologies, distinct wavelengths are mapped to different weighted numerical positions of binary numbers (safeguarding the absolute correctness of discrete computing) ; meanwhile, specific wavelength groups are directly mapped as "operator instructions," acting as the energy keys to open the gates of the physical maze.
+Phase Dimension (Phase / Logical Interference): By controlling the pacing of light waves (such as a 0 or 180° phase difference), the interference properties of light are used to directly participate in logical operations, symbol cancellation, and symbol carrying at the physical layer.
+Polarization Dimension (Polarization / Short-range State Isolation): Utilizing orthogonal polarization states such as Horizontal (H) and Vertical (V) to label data streams physically for lossless routing within the same track or short-range high-frequency co-flying caching.
+Spatial Geometric Dimension (Spatial Mode / Long-range Spatial Expansion & Transparent Transit): Introducing spatial wave-front modes like Orbital Angular Momentum (OAM) to carve out horizontally independent spatial physical channels in the same waveguide, used to give specific data a "physical immunity label".
 
-## 3. FIC Three-Tier Structural Stratification
+3. FIC Core Physical Cascading Evolution & Multi-dimensional Co-flying Mechanism ———— Deep Analysis of a Classic Case: 1 + (58 - 6) × (40 / 6) = 347.66 
 
-FIC replaces fixed physical transistor gates and mutable register states with a spatial three-layer unified hardware model:
 
-* **The Carrier Layer:** The dynamic medium of information. It consists of coherent complex wave packets $\Psi(t,r)$ traveling through low-loss optical waveguides. Data is never latched into a static charge state; instead, data propagation is the state itself.
-* **The Constraint Layer:** The programmable unpassive canvas. Composed of non-volatile Phase-Change Material (PCM) metasurfaces integrated into programmable interferometric Clements meshes. It eliminates runtime instruction decoding; instead, its static geometric topology acts as a physical boundary tensor ($M_{constraint}$), guiding and altering the wavefront profiles of the passing optical streams.
-* **The Detection Layer:** The destination of the computational flight. Located at the spatial coordinates where the wave equation reaches its steady-state minimum energy landscape. The converged solution state $\Psi_{stable}$ is projected onto this plane, performing localized optical-to-electrical (O/E) conversion only at the final system exit.
 
----
+To fully demonstrate the response mechanism of the FIC 1.0 architecture to mixed operations, this chapter uses a highly representative multi-stage, multi-loop complex formula 1 + (58 - 6) × (40 / 6) to restore the grand evolutionary panorama of data streams, operator instructions, and multi-stage co-flying memory within a hundred-nanometer chip space.
 
-## 4. Bit Representation & Physical Logic Blocks
+3.1 Task Dispatching: A Single Multi-dimensional "Rainbow Packet" Emission In the FIC 1.0 architecture, data bits and operator instruction bits do not need to be read separately; they are packed as a unified whole and emitted within a single pulse flash. The system modulates all physical objects of this formula into the same composite optical stream:
+Data Wavelength/Spatial Segments: The binary numerical spectra corresponding to the numbers 1, 58, 6, and 40.
+Instruction Wavelength Segments (Energy Keys): lambda_add (Addition Key), lambda_sub (Subtraction Key), lambda_mul (Multiplication Key), lambda_div (Division Key).
 
-### 🧬 4.1 Coherent Wavefront Encoding & Push-Pull Spatial Differential Base
-In the FIC architecture, a single scalar bit or tensor element is transformed into a complex wavefront continuum defined by the combined physical dimensions of the electromagnetic field.
+3.2 Four-Layer Topological Cascading Reactions Inside the Processor When this "rainbow packet" is injected at the speed of light into the hundred-nanometer FIC physical maze (a hard-logic rail network composed of micro-ring resonators, directional couplers, and photonic crystal waveguides), it automatically unfolds topologically into four cascading evolutionary layers of varying depths:
 
-To guarantee absolute phase stability during runtime propagation, FIC implements a **Push-Pull Spatial Differential Base** as its fundamental bit carrier. A logic state does not depend on the absolute optical power of a single channel. Instead, information is encoded via Thin-Film Lithium Niobate (TFLN) Mach-Zehnder structures that simultaneously accelerate one branch (Push) and retard the parallel branch (Pull), injecting coherent optical wave packets into two tightly coupled parallel tracks (**Track A** and **Track B**). The bit state is defined by the relative phase difference ($\Delta\phi$):
+3.2.1 Layer 1: Dual-Track Absolute Parallel Evolution (Subtraction & Division) As the composite optical stream enters the maze, the instruction photons lambda_sub and lambda_div simultaneously trigger the wavelength sensing valves of their corresponding spaces, switching the physical rails:
+Left Subtraction Rail: The optical stream of 58 merges with that of 6. Utilizing discrete multi-wavelength channels, destructive interference (physical annihilation) occurs in channels with a phase difference of 180° (π). The current bit dims to output 0, and according to the law of energy conservation, the electromagnetic field energy in the canceled region is physically guided into adjacent carrying channels, instantly outputting an all-optical intermediate stream of 52.
+Right Division Rail: The optical streams of 40 and 6 are injected into a micro-ring resonator under the catalysis of lambda_div. Utilizing the non-linear modulation effects of the material, ultra-high-frequency intensity attenuation and phase slicing are executed, instantly spitting out an all-optical intermediate stream of 6.66....
+These two run side-by-side in space, evolving completely in parallel with zero wait time.
 
-* **Logic State "1":** Bound by the deterministic constraint $\Delta\phi = \phi_A - \phi_B = 0^\circ$ (Strictly In-Phase).
-* **Logic State "0":** Bound by the deterministic constraint $\Delta\phi = \phi_A - \phi_B = 180^\circ$ (Strictly Out-of-Phase).
+3.2.2 Layer 2: Short-Range "Polarization Dimension Co-flying Cache" (Physical Hiding of 52) Mathematically, the multiplication must wait for both the subtraction (52) and division (6.66...) results to be ready simultaneously. To achieve data alignment without clock interception:
+The optical stream of 52 exits the subtraction zone and instantly passes through a micro-nano all-optical polarizer, twisting it from the "Horizontal Polarization (H)" of the main computing stream to "Vertical Polarization (V)".
+The vertically polarized 52 and the horizontally polarized 6.66... from the division zone are merged into the exact same physical waveguide tube. Since orthogonal polarization states absolutely do not interfere, 52 transforms into an "in-place all-optical speed co-flying cache" that requires zero physical storage media and occupies no transistor area, flying forward shoulder-to-shoulder.
 
-Because Track A and Track B are fabricated with identical geometric profiles under ultra-dense spatial proximity ($< 5\ \mu\text{m}$), environmental thermal fluctuations and localized fabrication variations affect both tracks equally (common-mode noise). Upon differential interference at the destination, these perturbations cancel out symmetrically. This yields a massive **Common-Mode Rejection Ratio (CMRR)**, enabling completely **Heater-free** phase stabilization.
+3.2.3 Layer 3: Polarization Awakening and All-Optical Multiplicative Evolution When the two co-flying optical streams reach the entrance of the multiplication rail, they run directly into an integrated Polarization Beam Splitter (PBS). The vertically polarized 52 is instantly and precisely stripped and restored to its original polarization. Activated by the lambda_mul multiplication key within the mixed stream, 52 and 6.66... undergo four-wave mixing fusion in the multiplication zone, evolving into a brand-new spectral state representing 346.66....
 
-Leveraging this robust push-pull differential foundation, the global complex wavefront equation is defined as:
+3.2.4 Layer 4: Beyond Spacetime "Spatial Mode Long-Range Co-flying Cache" (Ghost Transit of Number 1) In the formula, the number 1 starts at the very first step, but it must wait until the absolute final step to participate in the addition. Traditional chips must forcefully lock it in an SRAM register, consuming massive clock cycles and leakage power.
+The FIC 1.0 Solution: Upon initial modulation and emission, the photons of number 1 are injected into a highly spatial-geometric dimension—high-order Orbital Angular Momentum (OAM, such as the helical wavefront mode l = +3).
+Due to its unique spatial geometric appearance along the transit, the physical valves of the first, second, and third layers of the chip present "physical immunity" (completely transparent routing) to this mode. It does not slow down, does not unload, and does not participate in intermediate reactions, traversing directly to the fourth layer like a long-range spatial ghost.
+Finally, the main optical stream of 346.66... rushes out of the multiplication zone into the final addition layer, just as the long-range co-flying "spatial ghost 1" arrives at the spatiotemporal alignment point. The lambda_add addition key opens the final gate, triggering all-optical addition interference and spatial mode demodulation.
 
-$$E(r,t)=\sum_{m,\sigma,\omega} A_{m,\sigma,\omega}(r) \cdot e^\sigma \cdot e^{i(k \cdot r - \omega t + \phi)}$$
+3.3 Terminal Final Hand-In The final optical stream shoots out of the processor exit. Wave-demultiplexing detectors count the continuous and discrete spectral energies, and the ultimate answer handed over by physical reality pinpoints precisely at: 347.66....
 
-Where amplitude ($A$) and phase ($\phi$) execute complex matrix transformations; the polarization state ($e^\sigma$) and **multi-wavelength channels ($\omega$, WDM)** are dense-multiplexed concurrently. This allows multi-modal, mixed-precision workloads to co-propagate without cross-talk within a single parallel differential track.
+4. Core Disruptive Design: All-Optical In-Flight Cache Mechanism Summary 
 
-### 🔀 4.2 Conditional Branching via Passive Optical Spatiotemporal Routers
-Conditional branching (`if / then / else`) in FIC bypasses electronic instruction branch predictors. The system utilizes the intrinsic non-linear response of the optical medium to execute branch selection natively.
 
-The waveguiding network splits at a passive spatial junction into an asymmetrical topology:
-* **The Default Channel (Channel_ELSE):** Fabricated with a slightly higher baseline refractive index $n_0$, acting as the natural low-energy propagation path for traveling wave packets.
-* **The Active Channel (Channel_THEN):** Clad with high-concentration third-order ($E^{(3)}$) Kerr non-linear organic polymers and coupled with a high-Q wavelength-selective micoring resonator.
 
-When the instance control wavelength ($\lambda_{ctrl\_inst}$) co-propagates with the data payload and hits the junction, if it satisfies the specific threshold condition, a sub-picosecond Kerr refractive index modulation occurs. This creates an instantaneous localized optical spatial trap, routing the light field via total internal reflection into the Active Channel (executing `then`). If the condition is not met, the microring behaves as a reflective boundary, forcing the optical stream to proceed along the Default Channel (executing `else`).
+FIC 1.0 completely overturns the traditional cache logic of "statically writing data into media," proposing the dynamic concept of "realizing caching while data is in flight":
 
-### 🎯 4.3 Co-Domain Multiphase Superposition Logic (AND / OR)
-To prevent exponential scaling of physical routing footprints under nested logic operations, FIC introduces co-domain multiphase superposition, executing compound logic within a single localized spatial junction.
+Short-Range Polarization Flight | Orthogonal Polarization (H ↔ V) | Lossless co-flying within the same waveguide, dynamically aligning clock paces of adjacent operators.
+Long-Range Spatial Flight | Orbital Angular Momentum (OAM Helical Wavefront) | Naturally immune to multi-layer physical valves, traversing computational depths for long-range ghost transits.
 
-By engineering the critical Kerr self-focusing threshold to trigger exactly at $I_{threshold} = 1.5 \times P_0$ (where $P_0$ represents the standard logic '1' optical power), the system executes an `AND` operation natively. If and only if both Input A ($1$) and Input B ($1$) at distinct wavelengths are injected simultaneously, constructive interference drives the local optical intensity to $2P_0 > 1.5P_0$. The threshold is instantly breached, altering the physical routing path. This compresses complex multi-stage Boolean algebra into a single spatial wave-mixing event.
+5. Evolution Path from Silicon to FIC Computing 
 
-### 🔄 4.4 Loop Operations & Memory via Spatiotemporal Flow-Injected Buffering
-To maintain computing flow without static SRAM or capacitive latches, FIC treats memory and loop variables as deterministic spatiotemporal distributions of optical wave packets within a ultra-low-loss $\text{Si}_3\text{N}_4$ network.
 
-* **Continuous Co-Flying Control Streams:** The compiler injects a designated control wavelength ($\lambda_{ctrl\_global}$) into the parallel tracks alongside the data stream. It carries no arithmetic payload but serves as an unpassive spatial reference landmark, maintaining temporal alignment across the network.
-* **Instantaneous Co-Flying Storage:** When a workload demands batch synchronization or waits for a branch resolution, the optical routers divert the data packet into a high-Q, low-loss **Silicon Nitride ($\text{Si}_3\text{N}_4$) Spiral Co-Flying Loop**. Data maintains its physical velocity ($c/n$), circulating within the spiral loop to store information dynamically without down-converting to the electronic domain.
-* **Deterministic Spatial Delay Alignment:** The exit of the co-flying loop is bounded by a rigid **Optical Time-Delay Alignment Matrix**. Its physical path length is precisely fixed during fabrication (tolerance $\pm 5\text{ nm}$). This guarantees that when the buffered wave packet is released, it merges with the downstream main-bus optical stream with picosecond-level alignment accuracy, completely eliminating spatial packet collisions without electronic clock gating.
 
-### 🌌 4.5 Hardware Garbage Collection via Phase-Annihilation & Directional Absorption
-FIC solves the Landauer limit of computational erasure through destructive wave interference. When higher-level software structures de-reference an isolated data string, garbage collection occurs natively within the optical domain.
+The FIC 1.0 architecture is not a disruptive, overnight replacement of the industry, but a smooth ecosystem upgrade executed through a three-step strategy: "Parasitic Acceleration, Integrated Cascading, and Independent Complete Entity":
 
-Upon the termination of upstream optical input to a de-referenced channel, the downstream differential track experiences instantaneous destructive interference within $1\text{ ps}$. As the local electromagnetic field energy cancels out symmetrically, the residual power is directionally routed into integrated **Titanium Nitride (TiN) High-Absorption Dumps** using deep trench isolation (DTI). The energy is safely dissipated out of the chip plane as localized phonon waves, enabling a true zero-gate-switching-overhead garbage collection mechanism.
+5.1 Phase I: Optoelectronic Heterogeneous Shallow FIC Acceleration (Currently Viable Entry Point) Architecture Shape: Traditional silicon-based electronic CPUs/GPUs still dominate, handling complex system-level control flows. The FIC processor acts as a high-speed photonic hardware acceleration core (PPU Chiplet), attached directly next to traditional electronic chips via existing advanced Chiplet packaging.
+Data Flow: The CPU dispatches massive matrix computation tasks converted into FIC multi-dimensional optical streams via micro electro-optic modulators → FIC instantly hands over results via speed-of-light physical evolution within hundred-nanometer channels converted back to electronic signals via photodetectors to hand back to the CPU.
+Commercial Viability (Beating Advanced-Node GPUs via Mature Nodes): Since it only takes over the burdensome General Matrix Multiply (GEMM) tasks in AI LLM training and scientific computing, FIC completely eliminates electronic clock overheads. We do not need extreme ultraviolet lithography (EUV) limits like 3nm or 2nm; using mature 90nm or 130nm micro-nano optical processes, we can build a "Shallow FIC Accelerator" that crushes top-tier silicon electronic GPUs in instantaneous compute capacity, throughput, and power efficiency without breaking the existing electronic ecosystem.
 
----
+5.2 Phase II: All-Optical Flow Relay and Cascade Fusion (Mid-Term Evolution) Architecture Shape: The system drastically reduces the frequency of "electrical-to-optical-to-electrical" conversions. Data exists as electricity only at the absolute frontend input and backend output; all intermediate logic, operations, and alignments are completed sequentially inside the all-optical stream.
+Technical Features: Full enablement of FIC 1.0's all-optical regenerative modification nodes and multi-dimensional co-flying caches. Optical pulses evolved in previous stages act directly as the physical driving force for subsequent stages, completely liberating the computing core from the tyranny of GHz electronic clocks and reducing core computing heat to zero.
 
-## 5. Physical Hardware Specifications & Foundry Implementation
+5.3 Phase III: Pure FIC Independent All-Optical Computing Ecosystem (Long-Term Ultimate Form) Architecture Shape: From the physical source of data, all-optical storage, all-optical cascading logical evolution, to multi-dimensional co-flying caches, the entire pipeline is 100% carried by photons. Completely shedding the silicon electronic shell, it builds a pure photonic central processing ecosystem with power consumption approaching the absolute zero-heat limit of physical thermodynamic theory.
 
-To translate the FIC architecture into clean GDSII layout masks for foundry manufacturing, the system standardizes on the following electro-photonic device specifications:
+6. Conclusion 
 
-* **Pump Source:** Mode-Locked Femtosecond Fiber Laser, providing highly stable, wide-spectrum, phase-coherent pulse streams at ultra-high repetition rates.
-* **E/O Input Interface:** Thin-Film Lithium Niobate (TFLN) Spatial Light Modulator (SLM) Array, impedance-matched to $50\ \Omega$ RF transmission lines. Converts standard $0.5\text{V}$ CMOS differential electronic signals into relative phase differences ($\Delta\phi$) within $1.5\text{ ps}$ (E/O modulation bandwidth $> 110\text{ GHz}$).
-* **Compute Grid:** Non-Volatile Phase-Change Material (PCM) Metasurfaces (e.g., utilizing low-loss $\text{Sb}_2\text{Se}_3$). Weights are programmed into static crystalline/amorphous structural layouts. Vector-matrix multiplications are executed passively as light passes through the Clements mesh, demanding zero electrical power for weight holding.
-* **Waveform Reshaping:** Thin-Film MoS2 Saturable Absorbers (SA) are transferred onto the waveguide claddings every 8 layers of the mesh grid. Utilizing the optical bleaching effect, the SAs absorb low-intensity scattering noise accumulated during propagation while passing high-intensity logic wave packets unattenuated, extending the maximum cascade depth past 64 layers.
-* **O/E Output Terminal:** Metasurface Geometric Phase Lens Arrays combined with ultra-fast Silicon/InGaAs Single-Photon Avalanche Diode (SPAD) Arrays, localized strictly at the computing core exit to decode final steady-state solutions.
+
+
+The FIC 1.0 core architecture replaces the "sequential switching logic" of traditional electronic computers with "multi-dimensional optical path geometry". It locks the absolute correctness of discrete digital computing through multi-wavelength channels, circumvents Joule heating via destructive interference, and implements unbelievable all-optical speed co-flying caches through polarization and spatial geometric transformations. This "Shallow FIC" evolution path proposed by architect Si Xifeng, which inflicts a dimension reduction strike on top-tier electronic GPUs using mature processes without disrupting the current ecosystem, points out a clear, realistic, and shocking technical direction for crossing the contemporary global compute ceiling.
 
 ---
 
-## 6. Compiler Architecture & Spatiotemporal Scheduling
+Open Source and Intellectual Property Rights Statement:
 
-Because the FIC hardware plane is a completely clockless, passive boundary medium, all synchronization and data-routing workloads are shifted upward into the static software compilation layer (**The FIC Compiler**).
+The core architecture documents and reference implementations of this project are open-sourced under the MIT License, aiming to promote global collaboration and development of non-Von Neumann photonic computing technologies.
 
-1. **Temporal Spatial-Separation Allocation:** The compiler analyzes the group index ($n_g$) of the target fabrication platform and enforces a strict $5\text{ ps}$ temporal guard-band between consecutive batch inputs. It interleaves multi-batch tensor fields across alternating wavelength grids to achieve zero-collision co-propagation.
-2. **Multi-Modal Feature Multiplexing:** For hybrid LLM workloads (e.g., synchronous text Token strings and image Pixel matrices), the compiler maps textual data into the relative phase-difference domain and visual data into the正交 polarization orientation domain. Both features are combined into a unified multi-dimensional wave packet, traversing the same physical waveguide concurrently and decoding independently via orthogonal unpassive filter responses.
-3. **Passive Path Assignment via Path Analysis Unit (PAU):** The compiler’s PAU evaluates the precise physical propagation delays of every routing coordinate. It pre-calculates the absolute picosecond timestamp of a wave packet's arrival at any given spatial junction, translating loop operations into deterministic geometric loop counts. The runtime data relies entirely on its own spatial momentum to complete execution with zero runtime instruction decoding.
+Intellectual Property & Inventor Declaration:
+The core topological designs of the Flyiscomputing (FIC) architecture (including but not limited to spatial dual-track differential encoding, co-axial wavelength co-flying mechanisms, and passive conditional node designs) were independently conceived and are originally owned by Xifeng Si.
 
----
+Citation Policy:
+Any academic institution, research team, or commercial entity (including but not limited to chip design, simulation platform development, or hardware tape-out) that utilizes the core concepts of the FIC architecture or references this whitepaper in research, products, or publications must append the following standard citation declaration in a prominent position (such as the front page of a paper, the acknowledgment area of a chip GDSII layout, or the software About page):
 
-## 7. AI Performance Benchmarks & Acceleration Advantages
+"The core Photonic In-Flight Logic Architecture (FIC v1.0), including the Spatial Dual-Track Differential Topology and Co-axial Wavelength Co-Flying mechanisms, was originally conceived and invented by Xifeng Si."
+(本项目的核心光子飞行逻辑架构（FIC v1.0），包括空间双轨差分拓扑与同轨波长伴飞机制，由思希峰 (Xifeng Si) 原创提出并发明。)
 
-* **GEMM Speed-of-Light Execution:** General Matrix Multiplications (GEMM) are executed within the intrinsic transit time (~80 picoseconds) of light crossing the programmable PCM Clements mesh. Computational latency degrades cleanly from an algorithmic complexity to a pure geometric time-of-flight constant.
-* **Unpassive On-Chip Softmax Integration:** To prevent heavy O/E-E/O round-trip overheads during exponentiation, FIC 1.0 integrates unpassive activation claddings. Passing light fields trigger an exponential refractive index shift within the non-linear thin film. The modulated stream then traverses an adiabatic, self-collimating spatial funnel waveguide (passive spatial filter). Driven by the conservation of energy, the funnel scales the optical wavefront to execute total normalization natively mid-flight.
-* **Order-of-Magnitude Energy Efficiency:** Traditional silicon-based GPUs operate at an energy efficiency of approximately $1 \sim 10\ \text{pJ/MAC}$, severely throttled by sub-threshold leakage currents and thermal dissipation caps. The FIC 1.0 platform achieves an end-to-end compute latency of **$< 90\ \text{ps}$** for massive matrix-activation cascades, suppressing the operational energy budget to the **Sub-Femtojoule regime (sub-fJ/MAC, ~10 fJ/MAC)**. High-density LLM data centers that currently demand dedicated megawatt power grids can be physically consolidated into a passive, desktop-sized form factor.
+Welcome Contributions:
+We welcome contributions from global developers in the fields of photonics, integrated circuit design, and AI compilers to submit Issues or Pull Requests. Let's work together to refine this architectural blueprint for computing that belongs to all humanity.
 
----
+Keywords (for GitHub SEO)
 
-## 8. Architectural Boundaries & Future Roadmap
-
-* **Precision Saturation (v1.0 Boundary):** Due to unavoidable photonic shot noise constraints at ultra-high sampling frequencies, FIC 1.0 natively targets highly stable **INT8 inference** and localized low-order **FP16 matrix operations**. It is not intended for FP64 double-precision scientific computing.
-* **Weight Re-loading Overhead (v1.0 Boundary):** Phase-change materials require thermal optical pulses for crystalline resetting, which restricts re-write speeds to the microsecond/millisecond domain. Consequently, FIC 1.0 is engineered specifically as an extreme-throughput **AI Inference Accelerator** and does not support high-frequency on-chip synchronous training.
-* **FIC v2.0 Atomic Scale Integration:** The layout architecture maintains modular ports for 2D Transition Metal Dichalcogenides (TMDs). Once mono-layer graphene-TMD growth scaling matures, it will replace TFLN interfaces, lowering the drive voltage to **$< 0.1\text{V}$ via attofarad-level native capacitances**.
-* **FIC v3.0 Room-Temperature All-Optical RAM:** The spiral delay ports are designed to couple with future Exciton-Polariton quantum microcavities. Upon the stabilization of room-temperature polariton condensates, optical wave packets will be trapped as topological superfluids, enabling zero-emission, infinite-retention All-Optical RAM.
-
----
-
-## 9. Intellectual Property, Citation & Contribution Policy
-
-The documentation and reference code implementations of the FIC architecture are released under the **MIT License** to foster open global collaboration in non-Von Neumann hardware ecosystems.
-
-**Intellectual Property & Inventorship:** The foundational topologies of the Flyiscomputing (FIC) architecture—including the Spatial Dual-Track Differential Phase Encoding, Co-axial Wavelength Co-Flying mechanisms, and Passive Optical Logic Junctions—were independently conceived, designed, and invented exclusively by **Xifeng Si (思希峰)**.
-
-**Citation Policy:** Any academic institution, industrial research laboratory, or commercial entity utilizing the architectural frameworks, simulation models, or GDSII layout primitives of FIC v1.0 **must prominently display the following attribution standard** within their publications, software "About" modules, or chip GDSII mask metadata (metasurface silkscreen):
-
-> *"The core Photonic In-Flight Logic Architecture (FIC v1.0), including the Spatial Dual-Track Differential Topology and Co-axial Wavelength Co-Flying mechanisms, was originally conceived and invented by Xifeng Si."*
-
-**Contributions:** We welcome pull requests and issue submissions from global engineers working in integrated photonics, electronic design automation (EDA), and AI compilers to advance this open blueprint for structural computing.
----
-
-### Keywords (for GitHub SEO)
 photonic computing, optical computing, dual-rail, differential phase, silicon photonics, non-von-neumann, dynamic computing, high-dimensional computing, FIC, Fly is computing, photonic logic, in-flight computing
