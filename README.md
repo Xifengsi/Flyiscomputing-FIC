@@ -1,3 +1,4 @@
+<meta name="msvalidate.01" content="A1B2C3D4E5F67890" />
 # FIC (Flyiscomputing) 1.0 核心架构白皮书
 
 ## *基于多维光子物理级联与全流级联演化的非冯·诺依曼计算系统*
